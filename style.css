@@ -32,7 +32,7 @@ header h2 {
 header p {
   font-size: 1.3rem;
   letter-spacing: 0.6rem;
-  max-width: 80%;
+  max-width: 90%;
   margin: 1.7rem auto;
   text-transform: uppercase;
 }
@@ -60,4 +60,67 @@ article {
 article p {
   line-height: 2rem;
   font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  header h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+
+  header p {
+    font-size: 1rem;
+    letter-spacing: 0.6rem;
+    max-width: 80%;
+    margin: 1.2rem auto;
+    text-transform: uppercase;
+  }
+
+  header .btn {
+    text-decoration: none;
+    padding: 1rem 1.8rem;
+    background-color: #000;
+    color: #ebaa2c;
+    font-size: 1rem;
+    transition: all 0.4s ease;
+  }
+}
+
+@media (max-width: 400px) {
+  header h2 {
+    font-size: 2.6rem;
+    text-transform: uppercase;
+  }
+
+  header p {
+    font-size: 1rem;
+    letter-spacing: 0.6rem;
+    max-width: 90%;
+    margin: 1rem auto;
+    text-transform: uppercase;
+  }
+
+  header .btn {
+    text-decoration: none;
+    padding: 1rem 1.8rem;
+    background-color: #000;
+    color: #ebaa2c;
+    font-size: 1rem;
+    transition: all 0.4s ease;
+  }
+
+  header .btn {
+    text-decoration: none;
+    padding: 1rem 1.3rem;
+    background-color: #000;
+    color: #ebaa2c;
+    font-size: 1rem;
+    transition: all 0.4s ease;
+  }
+
+  article p {
+    line-height: 1.7rem;
+    font-size: 1rem;
+    word-spacing: 5px;
+  }
 }
